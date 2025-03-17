@@ -1,5 +1,5 @@
-// pages/index.js
 'use client'
+// pages/index.js
 import { useState } from 'react';
 
 export default function Home() {
@@ -39,6 +39,9 @@ export default function Home() {
         <button type="submit">Register</button>
       </form>
       {message && <p>{message}</p>}
+      <p>
+        <a href="/users">View All Users</a>
+      </p>
     </div>
   );
 }
